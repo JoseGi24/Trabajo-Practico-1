@@ -42,5 +42,5 @@ UART : Enviará coordenadas de posición estimada a la pc.
 
 ### Diagrama en bloques: 
 
-
+![Alt text](/boo.svg "a title")
 
