@@ -33,7 +33,7 @@ int main()
 
 // Implementacion de funciones publicas //
 
-void inputInit() {
+void inputInit()  {
   botonAvanzar.mode(PullDown);
   botonAtras.mode(PullDown);
   botonDerecha.mode(PullDown);
@@ -44,7 +44,7 @@ void inputInit() {
   encoderIzquierda.mode(PullDown);
   }
 
-void outputinit() {
+void outputinit()  {
   motorH1 = OFF;
   motorH1 = OFF;
   triggerUltras= OFF;
@@ -52,7 +52,17 @@ void outputinit() {
   ledRojo = OFF;
   }
 
+void modosUpdate()  {
+  switch(modoActual)  {
+    case EN_PROGRAMACION:
+      programacion();
+      break;
+    case EN_MARCHA:
+      marcha();
+      break;
+  }
 
+      
 
 
 
