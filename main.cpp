@@ -46,7 +46,7 @@ void inputInit()  {
 
 void outputinit()  {
   motorH1 = OFF;
-  motorH1 = OFF;
+  motorH2 = OFF;
   triggerUltras= OFF;
   ledVerde = OFF;
   ledRojo = OFF;
